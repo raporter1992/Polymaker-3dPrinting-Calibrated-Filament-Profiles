@@ -20,13 +20,14 @@ These profiles are tuned for the **exact hardware, nozzle diameter, and slicer v
 |---|---|---|---|
 | 1 | Prusa Core One+ | Brass — 0.4 mm Standard | MMU3 installed |
 | 2 | Prusa MK4S | Brass CHT — 0.6 mm High Flow | Enclosure installed |
+| 3 | Prusa MK4S | Brass CHT — 0.4 mm High Flow | Enclosure installed |
 
 > **Note on printer naming:** PrusaSlicer's built-in system presets refer to printer 1 simply as "Core One" (no "+"). This repository uses "Core One / Core One+" interchangeably — testing was performed on a Core One+, and since it shares the same toolhead and nozzle system as the standard Core One, these profiles are expected to apply to both.
 
 ### Slicer
 
 - **Software:** PrusaSlicer
-- **Printer System Presets used as base:** Prusa Core One MMU3 0.4 Nozzle, Original Prusa MK4S HF0.6 Nozzle
+- **Printer System Presets used as base:** Prusa Core One MMU3 0.4 Nozzle, Original Prusa MK4S HF0.6 Nozzle, Original Prusa MK4S HF0.4 Nozzle
 
 ### Build Environment
 
@@ -68,10 +69,12 @@ These profiles are built on top of PrusaSlicer's **built-in system presets** for
 
 **Print Settings (system preset):**
 - `0.20mm SPEED @MK4S HF0.6`
+- `0.20mm SPEED @MK4S HF0.4`
 - `0.20mm SPEED @COREONE 0.4`
 
 **Printer Settings (system preset):**
 - `Original Prusa MK4S HF0.6 Nozzle`
+- `Original Prusa MK4S HF0.4 Nozzle`
 - `Prusa Core One MMU3 0.4 Nozzle`
 
 ---
@@ -92,6 +95,8 @@ For example:
 /Core-One/0.4mm/evidence/Polymaker-PETG/
 /MK4S/0.6mm-HF/Polymaker-PETG/
 /MK4S/0.6mm-HF/evidence/Polymaker-PETG/
+/MK4S/0.4mm-HF/Polymaker-PETG/
+/MK4S/0.4mm-HF/evidence/Polymaker-PETG/
 ```
 
 Each filament folder contains the calibrated `.ini` profile and a changelog for that specific printer/nozzle/filament combination. The corresponding `evidence/<Filament>/` folder holds the G-code and photo used to validate that profile version.
