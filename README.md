@@ -1,5 +1,9 @@
 # Calibrated Filament Profiles — Polymaker (PrusaSlicer)
 
+<img width="1600" height="1600" alt="polymaker-calibration-cover_1" src="https://github.com/user-attachments/assets/81813730-a3a2-40a5-966b-12fe2d447aeb" />
+
+
+
 ## Purpose
 
 This repository contains PrusaSlicer filament profiles for **Polymaker** filaments — including filament under the **Panchroma** and **Fiberon** product lines — calibrated and validated on the printers and hardware configuration described below. Each profile has been tuned through a structured calibration process rather than derived from manufacturer defaults alone, with the goal of providing print-ready, dimensionally accurate, and visually consistent results out of the box.
